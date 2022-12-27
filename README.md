@@ -1,5 +1,7 @@
 ## Realtor_ZhY
 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7s2jstz0vuig7y61su4z.png)
+
 ## Run locally
 
 Clone the repo:
