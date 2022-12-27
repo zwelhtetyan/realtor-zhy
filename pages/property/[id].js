@@ -113,11 +113,12 @@ export default function PropertyDetails({
           </Flex>
 
           <Box>
-            {amenities.length && (
+            {amenities.length > 0 && (
               <Text fontSize='2xl' fontWeight='black' marginTop='5'>
                 Amenities
               </Text>
             )}
+
             <Flex flexWrap='wrap'>
               {amenities.map((item) =>
                 item.amenities.map((amenity) => (

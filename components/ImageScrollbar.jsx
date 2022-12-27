@@ -21,10 +21,10 @@ export default function ImageScrollbar({ photos }) {
         <SwiperSlide key={photo.id}>
           <Box h={{ base: '250px', sm: '350px', md: '500px' }}>
             <Image
-              src={photo.url}
+              alt='slide_img'
               placeholder='blur'
               blurDataURL={photo.url}
-              alt='slide_img'
+              src={photo.url}
               fill
               style={{ borderRadius: '5px' }}
             />

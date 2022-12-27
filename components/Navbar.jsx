@@ -34,7 +34,7 @@ export default function Navbar() {
               icon={<FcMenu size={24} />}
               variant='outline'
             />
-            <MenuList>
+            <MenuList zIndex={100}>
               <Link href='/' passHref>
                 <MenuItem icon={<FcHome />} py={2}>
                   Home
