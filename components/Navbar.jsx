@@ -15,14 +15,20 @@ import { FiKey } from 'react-icons/fi';
 
 export default function Navbar() {
   return (
-    <Flex justify='center' align='center' w='full' boxShadow='base' p='2'>
-      <Flex w='full' maxW='container.lg' align='center'>
+    <Flex justify='center' align='center' w='full' boxShadow='base'>
+      <Flex
+        w='full'
+        maxW='container.xl'
+        align='center'
+        py={2}
+        px={{ base: 2, md: 6 }}
+      >
         <Box fontSize='3xl' fontWeight='bold' color='blue.400'>
           <Link href='/'>Realtor</Link>
         </Box>
         <Spacer />
         <Box>
-          <Menu>
+          <Menu autoSelect={false}>
             <MenuButton
               as={IconButton}
               icon={<FcMenu size={24} />}

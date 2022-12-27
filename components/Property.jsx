@@ -21,12 +21,15 @@ export default function Property({
 }) {
   return (
     <Box width={350} m={3} mb={5}>
-      <Link href={externalID} passHref>
+      <Link href={`property/${externalID}`} passHref>
         <Image
+          placeholder='blur'
+          blurDataURL={coverPhoto?.url}
           src={coverPhoto?.url || defaultPropertyImg}
           width={400}
           height={260}
           alt='property_img'
+          priority
           style={{
             width: '100%',
             height: '230px',
