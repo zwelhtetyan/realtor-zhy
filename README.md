@@ -11,16 +11,10 @@ git clone https://github.com/zwelhtetyan/realtor-zhy.git
 
 Go the the project directory:
 ```
-git clone https://github.com/zwelhtetyan/realtor-zhy.git
+cd realtor-zhy
 ```
 
 Install dependencies:
-```
-git clone https://github.com/zwelhtetyan/realtor-zhy.git
-```
-
-
-go the the project directory:
 ```
 yarn || npm install
 ```
