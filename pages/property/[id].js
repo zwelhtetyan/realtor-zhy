@@ -25,6 +25,8 @@ export default function PropertyDetails({
     photos,
   },
 }) {
+  console.log(description);
+
   return (
     <>
       <Head>
@@ -68,9 +70,14 @@ export default function PropertyDetails({
             <Text fontSize='xl' marginBottom='2' fontWeight='bold'>
               {title}
             </Text>
-            <Text lineHeight='2' color='gray.600' fontSize={{ sm: 'lg' }}>
-              {description}
-            </Text>
+
+            <Box
+              lineHeight='2'
+              color='gray.600'
+              fontSize={{ sm: 'lg' }}
+              dangerouslySetInnerHTML={{ __html: description }}
+              sx={{ ul: { ps: '2rem' } }}
+            />
           </Box>
 
           <Flex
