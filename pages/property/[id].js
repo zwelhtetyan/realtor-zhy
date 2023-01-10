@@ -25,7 +25,6 @@ export default function PropertyDetails({
     photos,
   },
 }) {
-  console.log(description);
 
   return (
     <>
