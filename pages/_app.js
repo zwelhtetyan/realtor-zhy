@@ -2,7 +2,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { Router } from 'next/router';
 import nProgress from 'nprogress';
 import Layout from '../components/Layout';
-
+import '../styles/golbals.css';
 import 'nprogress/nprogress.css';
 
 export default function App({ Component, pageProps }) {
