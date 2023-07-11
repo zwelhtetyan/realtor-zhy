@@ -19,13 +19,13 @@ cd realtor-zhy
 Install dependencies:
 
 ```
-yarn || npm install
+npm install
 ```
 
 Start the server:
 
 ```
-yarn dev || npm run dev
+npm run dev
 ```
 
 And then , you can check [localhost:3000](http://localhost:3000)
